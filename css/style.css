@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 /* body{
     background-color:bisque;
@@ -15,6 +16,7 @@
     align-items: center;
     font-family: var(--font1);
     border-bottom: 1px solid rgb(220, 220, 220);
+    height: 9vh;
 }
 .nav-left{
     margin: 40px;
@@ -24,6 +26,10 @@
     align-items: center;
     font-family: var(--font3);
     color: rgb(0, 0, 0);
+}
+.nav-left h1{
+    font-size: 30px;
+    font-family: var(--font1);
 }
 .nav-left ul{
     margin: 0px 60px;
@@ -89,14 +95,18 @@
 .content-1 .btn1{
     border: none;
     border-radius: 30px;
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(195, 195, 195);
     padding: 10px 20px;
     width: 200px;
     margin: 20px 0px;
     font-size: 20px;
     cursor: pointer;
 }
+.content-1 .btn1:hover{
+    background-color: rgb(180, 180, 180);
+}
 .content-2{
+    font-size: 20px;
     display: flex;
     align-items: center;
     width: 30%;
@@ -107,7 +117,7 @@
     /* background-color: aquamarine; */
     /* height: 2000px; */
     display: flex;
-    /* justify-content: center; */
+    /* justify-content: space-between; */
 }
 .home .left-bar{
     margin: 0px 40px;
@@ -149,7 +159,7 @@
 .home .right-bar{
     margin: 0px 40px;
     position:sticky;
-    top: 60px;
+    top: 9vh;
     right: 0px;
     height: 100vh;
     /* background-color: rgb(229, 192, 145); */
@@ -176,6 +186,7 @@
     margin: 25px 0px;
 }
 .home .right-bar .discover a{ 
+    font-size: 14px;
     cursor: pointer;
     text-decoration: none;
     color: green;

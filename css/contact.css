@@ -1,0 +1,42 @@
+.contact{
+    font-family: var(--font1);
+    background-color:rgb(255, 246, 234);
+    display: flex;
+    /* justify-content: space-between; */
+    height: 81vh;
+}
+.contact .main-bar{
+    margin: 0px 40px;
+    margin-bottom: 40px;
+    margin: auto;
+    /* background-color: beige; */
+    width: 80%;
+    justify-content: center;
+}
+.contact .main-bar .contact-us{
+    font-family: var(--font1);
+    /* padding: 20px; */
+}
+.contact .main-bar .contact-us h2{
+    margin: 20px 0px;
+    /* margin-right: 10px; */
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+.c-footer{
+    height: 10vh;
+    background-color: antiquewhite;
+    font-family: var(--font4);
+    /* background-color: red; */
+    padding-top: 5px;
+}
+.c-footer .footer-anchor a{ 
+    padding: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.c-footer .copy{
+    color: black;
+    margin:15px;
+    text-align: center;
+}
