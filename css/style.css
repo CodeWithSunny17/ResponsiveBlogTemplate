@@ -140,9 +140,10 @@
 .home .left-bar .articles .article{
     font-family: var(--font2);
     display: flex;
+    align-items: center;
 }
 .home .left-bar .articles .article .article-content{ 
-    align-self: center;
+    /* align-self: center; */
     padding: 0px 20px;
 }
 .home .left-bar .articles .article .article-content a{ 

@@ -5,7 +5,7 @@
     /* background-color: rgb(255, 235, 208); */
     display: flex;
     justify-content: center;
-    margin-top: 9vh;
+    padding-top: 9vh;
 }
 .blog-content .content-1{
     margin: 20px;
