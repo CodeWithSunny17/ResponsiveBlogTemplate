@@ -4,6 +4,7 @@
     display: flex;
     /* justify-content: space-between; */
     height: 81vh;
+    margin-top: 9vh;
 }
 .contact .main-bar{
     margin: 0px 40px;

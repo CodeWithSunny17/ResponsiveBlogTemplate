@@ -9,17 +9,18 @@
 .navigation{
     background-color: white;
     top: 0px;
-    position: sticky;
-    height: 60px;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: var(--font1);
     border-bottom: 1px solid rgb(220, 220, 220);
-    height: 9vh;
+    height: auto;
+    z-index: 1;
 }
 .nav-left{
-    margin: 40px;
+    margin: 0px 40px;
     font-size: 28px;
     font-weight: bold;
     display: flex;
@@ -28,11 +29,12 @@
     color: rgb(0, 0, 0);
 }
 .nav-left h1{
+    margin: 5px;
     font-size: 30px;
     font-family: var(--font1);
 }
 .nav-left ul{
-    margin: 0px 60px;
+    margin: 5px 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,11 +58,12 @@
 }
 
 .nav-right{
-    margin: 20px;
+    margin: 10px 20px;
 }
 .content{
     font-family: var(--font2);
     background-color:antiquewhite;
+    padding-top: 9vh;
     height: 468px;
     /* background-color: rgb(255, 235, 208); */
     display: flex;
@@ -204,7 +207,8 @@
     color: grey;
 }
 .footer .copy{
-    margin:auto;
-    margin-top: 200px;
+    /* margin:auto; */
+    text-align: center;
+    margin-top: 40px;
 
 }
