@@ -58,7 +58,7 @@
 
 .form-box input, textarea{
     font-family: var(--font1);
-    width: 50vw;
+    width: 60vw;
     padding: 5px 10px;
     margin: 10px;
 }

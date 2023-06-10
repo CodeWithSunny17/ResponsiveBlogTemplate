@@ -9,7 +9,7 @@
 }
 .blog-content .content-1{
     margin: 20px;
-    width: 55%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +17,7 @@
 }
 .blog-content .content-1 h3{
     font-family: var(--font1);
-    margin: 20px 20px;
+    margin: 20px 0px;
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
@@ -52,38 +52,38 @@
     display: flex;
     /* justify-content: space-between; */
 }
-.blog .left-bar{
-    margin: 0px 40px;
+.blog .main-bar{
+    margin:auto;
     /* background-color: beige; */
-    width: 85%;
+    width: 60%;
     justify-content: center;
 }
-.blog .left-bar .articles{
+.blog .main-bar .articles{
     font-family: var(--font1);
     /* padding: 20px; */
 }
-.blog .left-bar .articles h3{
+.blog .main-bar .articles h3{
     margin: 20px 0px;
     /* margin-right: 10px; */
     /* border-bottom: 1px solid rgb(220, 220, 220); */
 }
-.blog .left-bar .articles .article{
+.blog .main-bar .articles .article{
     font-family: var(--font2);
     display: flex;
 }
-.blog .left-bar .articles .article .article-content{ 
+.blog .main-bar .articles .article .article-content{ 
     align-self: center;
     padding: 0px 20px;
 }
-.blog .left-bar .articles .article .article-content a{ 
+.blog .main-bar .articles .article .article-content a{ 
     text-decoration: none;
     color: black;
 }
-.blog .left-bar .articles .article .article-content a:hover{ 
+.blog .main-bar .articles .article .article-content a:hover{ 
     text-decoration: underline;
 }
 
-.blog .left-bar .articles .article .article-img img{
+.blog .main-bar .articles .article .article-img img{
     width: 200px;
     padding: 0px 0px;
     border-radius: 30px;
