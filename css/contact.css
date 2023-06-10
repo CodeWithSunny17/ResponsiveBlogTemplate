@@ -37,6 +37,9 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+.c-footer .footer-anchor a:hover {
+    text-decoration: underline;
+}
 .c-footer .copy{
     color: black;
     margin:15px;
