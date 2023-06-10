@@ -110,7 +110,7 @@
 .content-1 .btn1 {
     border: none;
     border-radius: 30px;
-    background-color: rgb(195, 195, 195);
+    background-color: rgb(160, 160, 160);
     width: 200px;
     height: auto;
     font-size: 20px;
@@ -146,8 +146,8 @@
 }
 
 .content-2 {
-    font-family: var(--font5);
-    font-size: 30px;
+    font-family: var(--font2);
+    font-size: 24px;
     display: flex;
     align-items: center;
     width: 30%;
