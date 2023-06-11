@@ -31,7 +31,8 @@
     .content-1 .btn1 {
         border: none;
         border-radius: 30px;
-        background-color: rgb(195, 195, 195);
+        color: white;
+        background-color: rgb(0, 0, 0);
         padding: 10px 20px;
         width: 160px;
         margin: 20px 0px;
@@ -116,6 +117,17 @@
     }
     .content-1 {
         width: 75%;
+    }
+    .content-1 .btn1 {
+        border: none;
+        border-radius: 30px;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        width: 160px;
+        margin: 20px 0px;
+        font-size: 16px;
+        cursor: pointer;
     }
     
     .content-2{
